@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Card preview landing page</title>
+  <meta name="description" content="Click to the card to get more information.">
+  <meta name="keywords" content="Card, preview, hyottoko, anime">
+  <meta name="author" content="Faustze">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Card preview landing page">
+  <meta property="og:description" content="Click to the card to get more information.">
+  <meta property="og:image" content="./images/illustration-article.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/Faustze/card-preview">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg" sizes="32x32" href="assets/images/favicon.svg">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <h1 class="sr-only">Card preview landing page</h1>
+    <section class="card" aria-label="Card preview">
+      <div class="illustration-wrapper">
+        <img class="illustration" src="assets/images/illustration.svg" alt="Illustration article image">
+      </div>
+      <p class="quote-label">Quote</p>
+      <time class="quote-category">Season 1 Chapter 11</time>
+      <h2 class="quote-title">Demon Slayer: Kimetsu no Yaiba</h2>
+      <q class="quote">Perfection is achieved not with words, but with the steel you sharpen every day.</q>
+      <figure class="author">
+        <img class="icon" src="assets/images/icon.svg" alt="hyottoko icon">
+        <p>Hotaru Haganedzuka</p>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Source code from 
+      <a href="https://github.com/Faustze/card-preview" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub in a new tab">
+        GitHub
+      </a>
+    </p>
+  </footer>
+
+  <!-- Structured data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Card preview landing page",
+    "description": "Click to the card to get more information.",
+    "url": "https://github.com/Faustze/card-preview",
+    "image": "https://github.com/Faustze/card-preview/assets/images/preview.jpg"
+  }
+  </script>
+</body>
+</html>
